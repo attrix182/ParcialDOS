@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1561602088 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\main.c
+1561602767 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\main.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -21,7 +21,7 @@
 	<stdlib.h>
 	"menu.h"
 
-1561601712 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\controller.c
+1561603210 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\controller.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -37,7 +37,7 @@
 
 1561601840 e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\empleado.h
 
-1561601840 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\parser.c
+1561602168 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"

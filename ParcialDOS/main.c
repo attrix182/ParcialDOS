@@ -21,6 +21,7 @@ int main()
             system("cls");
             break;
         case 2:
+            controller_ListEmployee(listaEmpleados);
             break;
         case 3:
             break;

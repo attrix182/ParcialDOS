@@ -24,3 +24,46 @@ int controller_loadFromText(char* path, LinkedList* pArrayListEmployee)
 
 
 }
+
+
+int controller_ListEmployee(LinkedList* pArrayListEmployee)
+{
+    eEmpleado* pEmpleadoAux;
+    int ret = 0;
+    int idAux;
+    char nombreAux[50];
+    char empleoAux[50];
+    int edadAux;
+    int horasTrabajasAux;
+    int lenList = ll_len(pArrayListEmployee);
+    int i;
+    if(pArrayListEmployee!=NULL)
+    {
+        if(lenList>0)
+        {
+            printf("Id--Nombre--------Empleo--------Edad------Horas trabajadas \n");
+
+            for(i = 0; i < lenList; i++)
+            {
+                pEmpleadoAux = (eEmpleado*)ll_get(pArrayListEmployee, i);
+
+                eEmpleado_get_id(pEmpleadoAux, &idAux);
+                eEmpleado_get_nombre(pEmpleadoAux,nombreAux);
+                eEmpleado_get_empleo(pEmpleadoAux, empleoAux);
+                eEmpleado_get_edad(pEmpleadoAux,&edadAux);
+                eEmpleado_get_horasTrabajadas(pEmpleadoAux,&horasTrabajasAux);
+
+
+                printf("%2d  %s\t %s\t %d\t  %d\t \n",idAux, nombreAux, empleoAux, edadAux, horasTrabajasAux);
+            }
+
+            ret = 1;
+
+        }
+        else
+        {
+            printf("No se cargaron los datos.\n");
+        }
+    }
+    return ret;
+}
