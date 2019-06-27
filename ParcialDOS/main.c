@@ -36,10 +36,12 @@ int main()
             printf("\n");
             break;
         case 3:
-
+            controller_mapEmployee(listaEmpleados);
+            controller_ListEmployeeDedic(listaEmpleados);
              printf("opcion 3\n");
             break;
         case 4:
+
             break;
         default:
             printf("opcion invalida\n");

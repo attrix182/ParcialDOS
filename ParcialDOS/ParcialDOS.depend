@@ -47,7 +47,7 @@
 
 1561599745 e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\parser.h
 
-1561642688 source:d:\ls\parcialdos-master\parcialdos\controller.c
+1561643881 source:d:\ls\parcialdos-master\parcialdos\controller.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -55,27 +55,27 @@
 	"controller.h"
 	"parser.h"
 
-1561641368 d:\ls\parcialdos-master\parcialdos\linkedlist.h
+1561643448 d:\ls\parcialdos-master\parcialdos\linkedlist.h
 
-1561642559 d:\ls\parcialdos-master\parcialdos\empleado.h
+1561643827 d:\ls\parcialdos-master\parcialdos\empleado.h
 
-1561642679 d:\ls\parcialdos-master\parcialdos\controller.h
+1561643827 d:\ls\parcialdos-master\parcialdos\controller.h
 
 1561636504 d:\ls\parcialdos-master\parcialdos\parser.h
 
-1561639343 source:d:\ls\parcialdos-master\parcialdos\empleado.c
+1561643827 source:d:\ls\parcialdos-master\parcialdos\empleado.c
 	"empleado.h"
 	"stdio.h"
 	<stdlib.h>
 	<string.h>
 
-1561641724 source:d:\ls\parcialdos-master\parcialdos\linkedlist.c
+1561643342 source:d:\ls\parcialdos-master\parcialdos\linkedlist.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"LinkedList.h"
 
-1561641724 source:d:\ls\parcialdos-master\parcialdos\main.c
+1561643827 source:d:\ls\parcialdos-master\parcialdos\main.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"

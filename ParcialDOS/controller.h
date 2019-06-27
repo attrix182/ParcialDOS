@@ -7,5 +7,7 @@ int controller_sortEmployee(LinkedList* pArrayListEmployee);
 
 int controller_mapEmployee(LinkedList* pArrayListEmployee);
 
+int controller_ListEmployeeDedic(LinkedList* pArrayListEmployee);
+
 
 #endif // CONTROLLER_H_INCLUDED

@@ -212,15 +212,30 @@ int employee_mapeoPorDedicacion(eEmpleado* employee)
     int auxHoras = eEmpleado_get_horasTrabajadas(employee, &auxHoras);
     if(auxHoras > 0 && auxHoras <=200)
     {
-        eEmpleado_set_dedicacion("estandar");
+        eEmpleado_set_dedicacion(employee, "estandar");
     }
     else if(auxHoras > 200 && auxHoras <300)
     {
-        eEmpleado_set_dedicacion("sobre la medida");
+        eEmpleado_set_dedicacion(employee, "sobre la medida");
     }
     else if(auxHoras > 200 && auxHoras <300)
     {
-        eEmpleado_set_dedicacion("excesivo");
+        eEmpleado_set_dedicacion(employee, "excesivo");
     }
+    return 0;
 
+}
+
+int eEmpleado_get_dedicacion(eEmpleado* ptrEmp,char* this)
+{
+    int ret = -1;
+    if (ptrEmp!=NULL)
+    {
+        if (this!=NULL)
+        {
+            strcpy(this,ptrEmp->dedicacion);
+            ret = 0;
+        }
+    }
+    return ret;
 }

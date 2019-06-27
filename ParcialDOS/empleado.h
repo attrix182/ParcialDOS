@@ -30,12 +30,13 @@ int eEmpleado_set_edad (eEmpleado* ptrEmp,int this);
 int eEmpleado_set_horasTrabajadas(eEmpleado* ptrEmp,int this);
 
 int eEmpleado_set_dedicacion(eEmpleado* ptrEmp,char* this);
+int eEmpleado_get_dedicacion(eEmpleado* ptrEmp,char* this);
 
 
 int employee_sortPorNombre(void* employeeA,void* employeeB);
 
 
-int mapeoPorDedicacion(eEmpleado* employee);
+int employee_mapeoPorDedicacion(eEmpleado* employee);
 
 
 

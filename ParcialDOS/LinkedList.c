@@ -639,7 +639,7 @@ int ll_map(LinkedList* this, int(*pFunc)(void*))
            // temp = ll_get(this,i);
            // pFunc(temp);
 
-            pFunc() =ll_get(this,i);
+            pFunc(ll_get(this,i));
 
         }
         retVal = 0;
