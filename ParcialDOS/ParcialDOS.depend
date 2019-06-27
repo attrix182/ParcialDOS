@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1561602088 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"controller.h"
+	"menu.h"
+
+1561601604 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561591335 e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\linkedlist.h
+
+1557328529 e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\menu.h
+
+1561595901 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1561601712 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"empleado.h"
+	"controller.h"
+	"parser.h"
+
+1561601952 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\empleado.c
+	"empleado.h"
+	"stdio.h"
+	<stdlib.h>
+	<string.h>
+
+1561601840 e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\empleado.h
+
+1561601840 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"empleado.h"
+
+1561601376 e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\controller.h
+
+1561599745 e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\parser.h
+
