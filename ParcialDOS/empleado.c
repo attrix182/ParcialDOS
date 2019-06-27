@@ -28,6 +28,7 @@ eEmpleado* empleado_nuevosParametros(char idAux[50],char nombreAux[50],char empl
         eEmpleado_set_empleo(auxEmpleado, empleoAux);
 
         eEmpleado_set_edad(auxEmpleado, edad);
+
         eEmpleado_set_nombre(auxEmpleado, nombreAux);
 
     }
@@ -77,7 +78,7 @@ int eEmpleado_get_empleo (eEmpleado* ptrEmp,char* this)
     }
     return ret;
 }
-int eEmpleado_get_edad (eEmpleado* ptrEmp,int* this)
+int eEmpleado_get_edad(eEmpleado* ptrEmp,int* this)
 {
     int ret = -1;
     if (ptrEmp!=NULL)
@@ -169,5 +170,23 @@ int eEmpleado_set_horasTrabajadas(eEmpleado* ptrEmp,int this)
         }
     }
     return ret;
+}
+
+int employee_sortPorNombre(void* employeeA,void* employeeB)
+{
+    char auxNameA [50], auxNameB [50];
+    int ret;
+
+    if((employeeA != NULL)&&(employeeB !=NULL))
+    {
+        eEmpleado_get_nombre(employeeA, auxNameA);
+        eEmpleado_get_nombre(employeeB, auxNameB);
+
+        ret = strcmp(auxNameA, auxNameB);
+
+    }
+
+    return ret;
+
 }
 

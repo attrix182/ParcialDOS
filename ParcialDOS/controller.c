@@ -67,3 +67,13 @@ int controller_ListEmployee(LinkedList* pArrayListEmployee)
     }
     return ret;
 }
+
+int controller_sortEmployee(LinkedList* pArrayListEmployee)
+{
+    if(pArrayListEmployee != NULL)
+    {
+        ll_sort(pArrayListEmployee, employee_sortPorNombre, 1);
+    }
+
+    return 1;
+}

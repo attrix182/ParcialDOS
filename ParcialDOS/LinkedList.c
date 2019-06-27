@@ -372,6 +372,7 @@ int ll_containsAll(LinkedList* this,LinkedList* this2)
     int returnAux = -1;
     int tam1;
     int tam2;
+    int i;
     void* pElement;
     int contador = 0;
 
@@ -383,7 +384,7 @@ int ll_containsAll(LinkedList* this,LinkedList* this2)
         returnAux = 0;
         if(tam1 >= tam2)
         {
-            for(int i = 0; i<tam2; i++)
+            for(i= 0; i<tam2; i++)
             {
                 pElement = ll_get(this2,i);
                 if(ll_contains(this2,pElement) == 1)

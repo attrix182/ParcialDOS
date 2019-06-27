@@ -10,6 +10,7 @@ typedef struct
     int edad;
     int horasTrabajadas;
 
+
 } eEmpleado;
 
 eEmpleado* eEmpleado_new();
@@ -27,6 +28,9 @@ int eEmpleado_set_nombre(eEmpleado* ptrEmp,char* this);
 int eEmpleado_set_empleo (eEmpleado* ptrEmp,char* this);
 int eEmpleado_set_edad (eEmpleado* ptrEmp,int this);
 int eEmpleado_set_horasTrabajadas(eEmpleado* ptrEmp,int this);
+
+
+int employee_sortPorNombre(void* employeeA,void* employeeB);
 
 
 
