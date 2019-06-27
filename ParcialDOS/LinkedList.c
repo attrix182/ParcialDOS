@@ -623,3 +623,29 @@ int ll_get_Size(LinkedList* this)
     }
     return retorno;
 }
+
+//Del parcial
+
+
+int ll_map(LinkedList* this, int(*pFunc)(void*))
+{
+    int retVal = -1;
+    if (this!=NULL&&pFunc!=NULL)
+    {
+        int i;
+        for (i=0;i<ll_len(this);i++)
+        {
+            //void* temp;
+           // temp = ll_get(this,i);
+           // pFunc(temp);
+
+            pFunc() =ll_get(this,i);
+
+        }
+        retVal = 0;
+    }
+    return retVal;
+
+
+
+}

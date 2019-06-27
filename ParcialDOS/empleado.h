@@ -9,7 +9,7 @@ typedef struct
     char empleo[50];
     int edad;
     int horasTrabajadas;
-
+    char dedicacion[50];
 
 } eEmpleado;
 
@@ -29,9 +29,13 @@ int eEmpleado_set_empleo (eEmpleado* ptrEmp,char* this);
 int eEmpleado_set_edad (eEmpleado* ptrEmp,int this);
 int eEmpleado_set_horasTrabajadas(eEmpleado* ptrEmp,int this);
 
+int eEmpleado_set_dedicacion(eEmpleado* ptrEmp,char* this);
+
 
 int employee_sortPorNombre(void* employeeA,void* employeeB);
 
+
+int mapeoPorDedicacion(eEmpleado* employee);
 
 
 

@@ -5,5 +5,7 @@ int controller_loadFromText(char* path, LinkedList* pArrayListEmployee);
 
 int controller_sortEmployee(LinkedList* pArrayListEmployee);
 
+int controller_mapEmployee(LinkedList* pArrayListEmployee);
+
 
 #endif // CONTROLLER_H_INCLUDED

@@ -5,7 +5,7 @@ int pedirOpcionMenu()
 {
     int opcion;
     printf("                          A B M                  \n\n");
-    printf(" 1. Cargar archivo  \n 2. Listar ordenados ascendente por nombre  \n 3. 3\n 4. Salir\n");
+    printf(" 1. Cargar archivo  \n 2. Listar ordenados ascendente por nombre  \n 3. Listar empleados ordenados por dedicacion de forma ascendente\n 4. Salir\n");
     scanf("%d", &opcion);
 
     return opcion;

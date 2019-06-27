@@ -36,6 +36,8 @@ int main()
             printf("\n");
             break;
         case 3:
+
+             printf("opcion 3\n");
             break;
         case 4:
             break;

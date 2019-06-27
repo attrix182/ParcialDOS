@@ -321,3 +321,8 @@ LinkedList* ll_clone(LinkedList* this);
                                 ( 0) Si ok
  */
 int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order);
+
+
+// DEL PARCIAL
+
+int ll_map(LinkedList* this, int(*pFunc)(void*));

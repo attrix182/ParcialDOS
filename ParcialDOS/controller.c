@@ -77,3 +77,13 @@ int controller_sortEmployee(LinkedList* pArrayListEmployee)
 
     return 1;
 }
+
+int controller_mapEmployee(LinkedList* pArrayListEmployee)
+{
+    if(pArrayListEmployee != NULL)
+    {
+        ll_map(pArrayListEmployee, mapeoPorDedicacion);
+    }
+
+    return 1;
+}
