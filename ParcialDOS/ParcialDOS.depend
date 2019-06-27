@@ -95,3 +95,51 @@
 	<stdlib.h>
 	"menu.h"
 
+1561643942 source:e:\usuarios\escritorio\parcialdos-mastera\parcialdos\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"empleado.h"
+	"controller.h"
+	"parser.h"
+
+1561643942 e:\usuarios\escritorio\parcialdos-mastera\parcialdos\linkedlist.h
+
+1561643942 e:\usuarios\escritorio\parcialdos-mastera\parcialdos\empleado.h
+
+1561643942 e:\usuarios\escritorio\parcialdos-mastera\parcialdos\controller.h
+
+1561643942 e:\usuarios\escritorio\parcialdos-mastera\parcialdos\parser.h
+
+1561644193 source:e:\usuarios\escritorio\parcialdos-mastera\parcialdos\empleado.c
+	"empleado.h"
+	"stdio.h"
+	<stdlib.h>
+	<string.h>
+
+1561643942 source:e:\usuarios\escritorio\parcialdos-mastera\parcialdos\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561643942 source:e:\usuarios\escritorio\parcialdos-mastera\parcialdos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"controller.h"
+	"menu.h"
+
+1561643942 e:\usuarios\escritorio\parcialdos-mastera\parcialdos\menu.h
+
+1561643942 source:e:\usuarios\escritorio\parcialdos-mastera\parcialdos\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1561643942 source:e:\usuarios\escritorio\parcialdos-mastera\parcialdos\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"empleado.h"
+
